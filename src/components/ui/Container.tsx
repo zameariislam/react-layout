@@ -1,12 +1,9 @@
 import { ReactNode } from "react";
 
-
-
 export default function Container({children}:{children:ReactNode}) {
   return (
-    <div className=" bg-red-700 w-[1250px] h-full mx-auto ">
-      {children}
-     
+    <div className="w-[1250px]  bg-purple-500 h-full mx-auto p-3 ">
+    {children}
     </div>
   )
 }

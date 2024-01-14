@@ -1,7 +1,17 @@
+import MainLayout from "./components/layout/MainLayout";
+import Container from "./components/ui/Container";
 
 
 export default function App() {
-  return <h1>Helloo World</h1>
+  return (
+    <>
+   <Container>
+    <MainLayout/>
+
+   </Container>
+    
+    </>
+  )
 
   
    
